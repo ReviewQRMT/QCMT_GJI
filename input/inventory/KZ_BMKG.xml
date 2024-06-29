@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<seiscomp xmlns="http://geofon.gfz-potsdam.de/ns/seiscomp3-schema/0.6" version="0.6">
+  <Inventory>
+    <sensor publicID="Sensor#20130621124007.177168.2249" name="KKAR.2001.345.HE" response="ResponsePAZ#20130621124007.17738.2250">
+      <description>KS-54000</description>
+      <model>KS-54000</model>
+      <manufacturer>Geotech</manufacturer>
+      <unit>M/S**2</unit>
+      <calibration serialNumber="yyyy" channel="2">
+        <start>2001-12-11T00:00:00.0000Z</start>
+        <gain>15057</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+    </sensor>
+    <sensor publicID="Sensor#20130621124007.181779.2259" name="KKAR.2001.345.HN" response="ResponsePAZ#20130621124007.181993.2260">
+      <description>KS-54000</description>
+      <model>KS-54000</model>
+      <manufacturer>Geotech</manufacturer>
+      <unit>M/S**2</unit>
+      <calibration serialNumber="yyyy" channel="1">
+        <start>2001-12-11T00:00:00.0000Z</start>
+        <gain>15057</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+    </sensor>
+    <sensor publicID="Sensor#20130621124007.186479.2269" name="KKAR.2001.345.HZ" response="ResponsePAZ#20130621124007.186689.2270">
+      <description>KS-54000</description>
+      <model>KS-54000</model>
+      <manufacturer>Geotech</manufacturer>
+      <unit>M/S**2</unit>
+      <calibration serialNumber="yyyy" channel="0">
+        <start>2001-12-11T00:00:00.0000Z</start>
+        <gain>15057</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+    </sensor>
+    <sensor publicID="Sensor#20130621124007.864605.3889" name="MKAR.2000.241.HE" response="ResponsePAZ#20130621124007.864751.3890">
+      <description>KS-54000</description>
+      <model>KS-54000</model>
+      <manufacturer>Geotech</manufacturer>
+      <unit>M/S</unit>
+      <calibration serialNumber="yyyy" channel="2">
+        <start>2000-08-28T00:00:00.0000Z</start>
+        <gain>15057</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+    </sensor>
+    <sensor publicID="Sensor#20130621124007.869822.3899" name="MKAR.2000.241.HN" response="ResponsePAZ#20130621124007.869952.3900">
+      <description>KS-54000</description>
+      <model>KS-54000</model>
+      <manufacturer>Geotech</manufacturer>
+      <unit>M/S</unit>
+      <calibration serialNumber="yyyy" channel="1">
+        <start>2000-08-28T00:00:00.0000Z</start>
+        <gain>15057</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+    </sensor>
+    <sensor publicID="Sensor#20130621124007.875011.3909" name="MKAR.2000.241.HZ" response="ResponsePAZ#20130621124007.875145.3910">
+      <description>KS-54000</description>
+      <model>KS-54000</model>
+      <manufacturer>Geotech</manufacturer>
+      <unit>M/S</unit>
+      <calibration serialNumber="yyyy" channel="0">
+        <start>2000-08-28T00:00:00.0000Z</start>
+        <gain>15057</gain>
+        <gainFrequency>1</gainFrequency>
+      </calibration>
+    </sensor>
+    <datalogger publicID="Datalogger#20130621124007.173315.2240" name="KKAR.2001.345.H">
+      <description>KKAR.2001.345.H</description>
+      <gain>15057</gain>
+      <maxClockDrift>0.008</maxClockDrift>
+      <calibration serialNumber="xxxx" channel="2">
+        <start>2001-12-11T00:00:00.0000Z</start>
+        <gain>15057</gain>
+        <gainFrequency>0</gainFrequency>
+      </calibration>
+      <calibration serialNumber="xxxx" channel="1">
+        <start>2001-12-11T00:00:00.0000Z</start>
+        <gain>15057</gain>
+        <gainFrequency>0</gainFrequency>
+      </calibration>
+      <calibration serialNumber="xxxx" channel="0">
+        <start>2001-12-11T00:00:00.0000Z</start>
+        <gain>15057</gain>
+        <gainFrequency>0</gainFrequency>
+      </calibration>
+      <decimation sampleRateNumerator="40" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR#20130621124007.182845.2261 ResponseFIR#20130621124007.183089.2262 ResponseFIR#20130621124007.183394.2263 ResponseFIR#20130621124007.183631.2264 ResponseFIR#20130621124007.183895.2265 ResponseFIR#20130621124007.184134.2266 ResponseFIR#20130621124007.184712.2267 ResponseFIR#20130621124007.18528.2268</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <datalogger publicID="Datalogger#20130621124007.859783.3880" name="MKAR.2000.241.H">
+      <description>MKAR.2000.241.H</description>
+      <gain>15057</gain>
+      <maxClockDrift>0.008</maxClockDrift>
+      <calibration serialNumber="xxxx" channel="2">
+        <start>2000-08-28T00:00:00.0000Z</start>
+        <gain>15057</gain>
+        <gainFrequency>0</gainFrequency>
+      </calibration>
+      <calibration serialNumber="xxxx" channel="1">
+        <start>2000-08-28T00:00:00.0000Z</start>
+        <gain>15057</gain>
+        <gainFrequency>0</gainFrequency>
+      </calibration>
+      <calibration serialNumber="xxxx" channel="0">
+        <start>2000-08-28T00:00:00.0000Z</start>
+        <gain>15057</gain>
+        <gainFrequency>0</gainFrequency>
+      </calibration>
+      <decimation sampleRateNumerator="40" sampleRateDenominator="1">
+        <digitalFilterChain>ResponseFIR#20130621124007.870702.3901 ResponseFIR#20130621124007.871057.3902 ResponseFIR#20130621124007.871484.3903 ResponseFIR#20130621124007.871843.3904 ResponseFIR#20130621124007.872197.3905 ResponseFIR#20130621124007.87258.3906 ResponseFIR#20130621124007.873276.3907 ResponseFIR#20130621124007.873965.3908</digitalFilterChain>
+      </decimation>
+    </datalogger>
+    <responsePAZ publicID="ResponsePAZ#20130621124007.17738.2250" name="KKAR.2001.345.HE">
+      <type>A</type>
+      <gain>15057</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>7.73125e+10</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>3</numberOfZeros>
+      <numberOfPoles>8</numberOfPoles>
+      <zeros>(0,0) (-454544,0) (-10000000,0)</zeros>
+      <poles>(-0.06235,0) (-22.71,27.106) (-22.71,-27.106) (-59.43,0) (-68.715,0) (-9473.41,0) (-1446000,0) (-5000000,0)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ#20130621124007.181993.2260" name="KKAR.2001.345.HN">
+      <type>A</type>
+      <gain>15057</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>7.73125e+10</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>3</numberOfZeros>
+      <numberOfPoles>8</numberOfPoles>
+      <zeros>(0,0) (-454544,0) (-10000000,0)</zeros>
+      <poles>(-0.06235,0) (-22.71,27.106) (-22.71,-27.106) (-59.43,0) (-68.715,0) (-9473.41,0) (-1446000,0) (-5000000,0)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ#20130621124007.186689.2270" name="KKAR.2001.345.HZ">
+      <type>A</type>
+      <gain>15057</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>7.73125e+10</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>3</numberOfZeros>
+      <numberOfPoles>8</numberOfPoles>
+      <zeros>(0,0) (-454544,0) (-10000000,0)</zeros>
+      <poles>(-0.06235,0) (-22.71,27.106) (-22.71,-27.106) (-59.43,0) (-68.715,0) (-9473.41,0) (-1446000,0) (-5000000,0)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ#20130621124007.864751.3890" name="MKAR.2000.241.HE">
+      <type>A</type>
+      <gain>15057</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>7.73125e+10</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>3</numberOfZeros>
+      <numberOfPoles>8</numberOfPoles>
+      <zeros>(0,0) (-454544,0) (-10000000,0)</zeros>
+      <poles>(-0.06235,0) (-22.71,27.106) (-22.71,-27.106) (-59.43,0) (-68.715,0) (-9473.41,0) (-1446000,0) (-5000000,0)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ#20130621124007.869952.3900" name="MKAR.2000.241.HN">
+      <type>A</type>
+      <gain>15057</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>7.73125e+10</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>3</numberOfZeros>
+      <numberOfPoles>8</numberOfPoles>
+      <zeros>(0,0) (-454544,0) (-10000000,0)</zeros>
+      <poles>(-0.06235,0) (-22.71,27.106) (-22.71,-27.106) (-59.43,0) (-68.715,0) (-9473.41,0) (-1446000,0) (-5000000,0)</poles>
+    </responsePAZ>
+    <responsePAZ publicID="ResponsePAZ#20130621124007.875145.3910" name="MKAR.2000.241.HZ">
+      <type>A</type>
+      <gain>15057</gain>
+      <gainFrequency>1</gainFrequency>
+      <normalizationFactor>7.73125e+10</normalizationFactor>
+      <normalizationFrequency>1</normalizationFrequency>
+      <numberOfZeros>3</numberOfZeros>
+      <numberOfPoles>8</numberOfPoles>
+      <zeros>(0,0) (-454544,0) (-10000000,0)</zeros>
+      <poles>(-0.06235,0) (-22.71,27.106) (-22.71,-27.106) (-59.43,0) (-68.715,0) (-9473.41,0) (-1446000,0) (-5000000,0)</poles>
+    </responsePAZ>
+    <responseFIR publicID="ResponseFIR#20130621124007.182845.2261" name="KKAR..BHZ.2001.345.stage_2">
+      <gain>262144</gain>
+      <decimationFactor>1</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>1</numberOfCoefficients>
+      <symmetry>B</symmetry>
+      <coefficients>1</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR#20130621124007.183089.2262" name="KKAR..BHZ.2001.345.stage_3">
+      <gain>1</gain>
+      <decimationFactor>8</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>15</numberOfCoefficients>
+      <symmetry>B</symmetry>
+      <coefficients>0.000244 0.000977 0.002441 0.004883 0.008545 0.013672 0.020508 0.029297 0.039307 0.049805 0.060059 0.069336 0.076904 0.082031 0.083984</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR#20130621124007.183394.2263" name="KKAR..BHZ.2001.345.stage_4">
+      <gain>1</gain>
+      <decimationFactor>2</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>7</numberOfCoefficients>
+      <symmetry>B</symmetry>
+      <coefficients>0.000244 0.00293 0.016113 0.053711 0.12085 0.193359 0.225586</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR#20130621124007.183631.2264" name="KKAR..BHZ.2001.345.stage_5">
+      <gain>1</gain>
+      <decimationFactor>2</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>7</numberOfCoefficients>
+      <symmetry>B</symmetry>
+      <coefficients>0.000244 0.00293 0.016113 0.053711 0.12085 0.193359 0.225586</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR#20130621124007.183895.2265" name="KKAR..BHZ.2001.345.stage_6">
+      <gain>1</gain>
+      <decimationFactor>2</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>7</numberOfCoefficients>
+      <symmetry>B</symmetry>
+      <coefficients>0.000244 0.00293 0.016113 0.053711 0.12085 0.193359 0.225586</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR#20130621124007.184134.2266" name="KKAR..BHZ.2001.345.stage_7">
+      <gain>1</gain>
+      <decimationFactor>2</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>101</numberOfCoefficients>
+      <symmetry>A</symmetry>
+      <coefficients>-1e-06 -6e-06 -3e-06 -4.3e-05 -5e-06 1e-06 2.3e-05 1e-06 -5.3e-05 -0.000367 0.000376 0.000854 3.1e-05 -0.001276 -0.000911 0.001277 0.002152 -0.000462 -0.003338 -0.001409 0.003771 0.004194 -0.002643 -0.007201 -0.000644 0.009184 0.006084 -0.008578 -0.01274 0.003982 0.018626 0.005205 -0.020941 -0.018163 0.016667 0.032245 -0.003466 -0.042953 -0.019326 0.044309 0.049791 -0.029416 -0.082608 -0.009342 0.107552 0.08166 -0.10311 -0.204208 -3.1e-05 0.390433 0.589958 0.390433 -3.1e-05 -0.204208 -0.10311 0.08166 0.107552 -0.009342 -0.082608 -0.029416 0.049791 0.044309 -0.019326 -0.042953 -0.003466 0.032245 0.016667 -0.018163 -0.020941 0.005205 0.018626 0.003982 -0.01274 -0.008578 0.006084 0.009184 -0.000644 -0.007201 -0.002643 0.004194 0.003771 -0.001409 -0.003338 -0.000462 0.002152 0.001277 -0.000911 -0.001276 3.1e-05 0.000854 0.000376 -0.000367 -0.00041 2.5e-05 0.000262 0.000121 -0.0001 -0.000162 -9.8e-05 -2.9e-05 -3e-06</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR#20130621124007.184712.2267" name="KKAR..BHZ.2001.345.stage_8">
+      <gain>1</gain>
+      <decimationFactor>5</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>50</numberOfCoefficients>
+      <symmetry>B</symmetry>
+      <coefficients>1e-05 1.6e-05 2.1e-05 1.7e-05 -5e-06 -5.6e-05 -0.000139 -0.000252 -0.000379 -0.00049 -0.000545 -0.000495 -0.000305 4e-05 0.00052 0.001066 0.001567 0.00188 0.001859 0.001394 0.000452 -0.000892 -0.00244 -0.003887 -0.004857 -0.004987 -0.004013 -0.001865 0.001272 0.004931 0.008406 0.010856 0.011465 0.009637 0.00517 -0.001594 -0.009731 -0.01779 -0.023969 -0.026397 -0.023456 -0.014115 0.001805 0.023495 0.049171 0.076266 0.101771 0.122659 0.136353 0.141121</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR#20130621124007.18528.2268" name="KKAR..BHZ.2001.345.stage_9">
+      <gain>1</gain>
+      <decimationFactor>5</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>118</numberOfCoefficients>
+      <symmetry>B</symmetry>
+      <coefficients>-1.1e-05 -2e-05 -3.3e-05 -4.4e-05 -4.8e-05 -4.1e-05 -1.9e-05 1.9e-05 6.8e-05 0.000119 0.000159 0.000175 0.000158 0.000105 2.5e-05 -6.5e-05 -0.000141 -0.000179 -0.000161 -8.6e-05 3.3e-05 0.000164 0.000269 0.000311 0.000264 0.000131 -6.1e-05 -0.000261 -0.000409 -0.000449 -0.000354 -0.000136 0.000156 0.000439 0.000623 0.000638 0.000457 0.000109 -0.000316 -0.000694 -0.000903 -0.000854 -0.000533 -8e-06 0.000581 0.001057 0.001257 0.001088 0.000559 -0.000202 -0.000983 -0.00154 -0.001677 -0.001304 -0.000485 0.000571 0.001556 0.002157 0.002143 0.001459 0.000251 -0.001154 -0.002336 -0.002903 -0.002617 -0.001488 0.000216 0.002014 0.003352 0.003768 0.003046 0.001304 -0.001009 -0.003221 -0.004631 -0.004723 -0.003347 -0.000793 0.002245 0.004865 0.006206 0.005727 0.003409 -0.0002 -0.004092 -0.007076 -0.008128 -0.006728 -0.003072 0.001923 0.006827 0.010091 0.010518 0.007664 0.002066 -0.004832 -0.01101 -0.014438 -0.013693 -0.008475 0.000174 0.010004 0.018085 0.021594 0.018666 0.009101 -0.005329 -0.021054 -0.033396 -0.037623 -0.030137 -0.009498 0.022993 0.063304 0.10534 0.142124 0.167226 0.176134</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR#20130621124007.870702.3901" name="MKAR..BHZ.2000.241.stage_2">
+      <gain>262144</gain>
+      <decimationFactor>1</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>1</numberOfCoefficients>
+      <symmetry>B</symmetry>
+      <coefficients>1</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR#20130621124007.871057.3902" name="MKAR..BHZ.2000.241.stage_3">
+      <gain>1</gain>
+      <decimationFactor>8</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>15</numberOfCoefficients>
+      <symmetry>B</symmetry>
+      <coefficients>0.000244 0.000977 0.002441 0.004883 0.008545 0.013672 0.020508 0.029297 0.039307 0.049805 0.060059 0.069336 0.076904 0.082031 0.083984</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR#20130621124007.871484.3903" name="MKAR..BHZ.2000.241.stage_4">
+      <gain>1</gain>
+      <decimationFactor>2</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>7</numberOfCoefficients>
+      <symmetry>B</symmetry>
+      <coefficients>0.000244 0.00293 0.016113 0.053711 0.12085 0.193359 0.225586</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR#20130621124007.871843.3904" name="MKAR..BHZ.2000.241.stage_5">
+      <gain>1</gain>
+      <decimationFactor>2</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>7</numberOfCoefficients>
+      <symmetry>B</symmetry>
+      <coefficients>0.000244 0.00293 0.016113 0.053711 0.12085 0.193359 0.225586</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR#20130621124007.872197.3905" name="MKAR..BHZ.2000.241.stage_6">
+      <gain>1</gain>
+      <decimationFactor>2</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>7</numberOfCoefficients>
+      <symmetry>B</symmetry>
+      <coefficients>0.000244 0.00293 0.016113 0.053711 0.12085 0.193359 0.225586</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR#20130621124007.87258.3906" name="MKAR..BHZ.2000.241.stage_7">
+      <gain>1</gain>
+      <decimationFactor>2</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>101</numberOfCoefficients>
+      <symmetry>A</symmetry>
+      <coefficients>-1e-06 -6e-06 -3e-06 -4.3e-05 -5e-06 1e-06 2.3e-05 1e-06 -5.3e-05 -0.000367 0.000376 0.000854 3.1e-05 -0.001276 -0.000911 0.001277 0.002152 -0.000462 -0.003338 -0.001409 0.003771 0.004194 -0.002643 -0.007201 -0.000644 0.009184 0.006084 -0.008578 -0.01274 0.003982 0.018626 0.005205 -0.020941 -0.018163 0.016667 0.032245 -0.003466 -0.042953 -0.019326 0.044309 0.049791 -0.029416 -0.082608 -0.009342 0.107552 0.08166 -0.10311 -0.204208 -3.1e-05 0.390433 0.589958 0.390433 -3.1e-05 -0.204208 -0.10311 0.08166 0.107552 -0.009342 -0.082608 -0.029416 0.049791 0.044309 -0.019326 -0.042953 -0.003466 0.032245 0.016667 -0.018163 -0.020941 0.005205 0.018626 0.003982 -0.01274 -0.008578 0.006084 0.009184 -0.000644 -0.007201 -0.002643 0.004194 0.003771 -0.001409 -0.003338 -0.000462 0.002152 0.001277 -0.000911 -0.001276 3.1e-05 0.000854 0.000376 -0.000367 -0.00041 2.5e-05 0.000262 0.000121 -0.0001 -0.000162 -9.8e-05 -2.9e-05 -3e-06</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR#20130621124007.873276.3907" name="MKAR..BHZ.2000.241.stage_8">
+      <gain>1</gain>
+      <decimationFactor>5</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>50</numberOfCoefficients>
+      <symmetry>B</symmetry>
+      <coefficients>1e-05 1.6e-05 2.1e-05 1.7e-05 -5e-06 -5.6e-05 -0.000139 -0.000252 -0.000379 -0.00049 -0.000545 -0.000495 -0.000305 4e-05 0.00052 0.001066 0.001567 0.00188 0.001859 0.001394 0.000452 -0.000892 -0.00244 -0.003887 -0.004857 -0.004987 -0.004013 -0.001865 0.001272 0.004931 0.008406 0.010856 0.011465 0.009637 0.00517 -0.001594 -0.009731 -0.01779 -0.023969 -0.026397 -0.023456 -0.014115 0.001805 0.023495 0.049171 0.076266 0.101771 0.122659 0.136353 0.141121</coefficients>
+    </responseFIR>
+    <responseFIR publicID="ResponseFIR#20130621124007.873965.3908" name="MKAR..BHZ.2000.241.stage_9">
+      <gain>1</gain>
+      <decimationFactor>5</decimationFactor>
+      <delay>0</delay>
+      <correction>0</correction>
+      <numberOfCoefficients>118</numberOfCoefficients>
+      <symmetry>B</symmetry>
+      <coefficients>-1.1e-05 -2e-05 -3.3e-05 -4.4e-05 -4.8e-05 -4.1e-05 -1.9e-05 1.9e-05 6.8e-05 0.000119 0.000159 0.000175 0.000158 0.000105 2.5e-05 -6.5e-05 -0.000141 -0.000179 -0.000161 -8.6e-05 3.3e-05 0.000164 0.000269 0.000311 0.000264 0.000131 -6.1e-05 -0.000261 -0.000409 -0.000449 -0.000354 -0.000136 0.000156 0.000439 0.000623 0.000638 0.000457 0.000109 -0.000316 -0.000694 -0.000903 -0.000854 -0.000533 -8e-06 0.000581 0.001057 0.001257 0.001088 0.000559 -0.000202 -0.000983 -0.00154 -0.001677 -0.001304 -0.000485 0.000571 0.001556 0.002157 0.002143 0.001459 0.000251 -0.001154 -0.002336 -0.002903 -0.002617 -0.001488 0.000216 0.002014 0.003352 0.003768 0.003046 0.001304 -0.001009 -0.003221 -0.004631 -0.004723 -0.003347 -0.000793 0.002245 0.004865 0.006206 0.005727 0.003409 -0.0002 -0.004092 -0.007076 -0.008128 -0.006728 -0.003072 0.001923 0.006827 0.010091 0.010518 0.007664 0.002066 -0.004832 -0.01101 -0.014438 -0.013693 -0.008475 0.000174 0.010004 0.018085 0.021594 0.018666 0.009101 -0.005329 -0.021054 -0.033396 -0.037623 -0.030137 -0.009498 0.022993 0.063304 0.10534 0.142124 0.167226 0.176134</coefficients>
+    </responseFIR>
+    <network publicID="Network#20130621124006.430897.2" code="KZ">
+      <start>1980-01-01T00:00:00.0000Z</start>
+      <description>KAZAKH NETWORK IGR NNC</description>
+      <netClass>p</netClass>
+      <archive>BMKG</archive>
+      <restricted>false</restricted>
+      <shared>true</shared>
+      <station publicID="Station#20130621124007.17268.2238" code="KKAR">
+        <start>2001-12-11T00:00:00.0000Z</start>
+        <description>Karatau array,KK31, Kazakhstan</description>
+        <latitude>43.1034</latitude>
+        <longitude>70.5115</longitude>
+        <elevation>520.9</elevation>
+        <place>Karatau array</place>
+        <country> Kazakhstan</country>
+        <affiliation>KAZAKH NETWORK IGR NNC</affiliation>
+        <archive>BMKG</archive>
+        <restricted>false</restricted>
+        <shared>true</shared>
+        <sensorLocation publicID="SensorLocation#20130621124007.173104.2239" code="">
+          <start>2001-12-11T00:00:00.0000Z</start>
+          <latitude>43.1034</latitude>
+          <longitude>70.5115</longitude>
+          <elevation>520.9</elevation>
+          <stream code="BHE" datalogger="Datalogger#20130621124007.173315.2240" sensor="Sensor#20130621124007.177168.2249">
+            <start>2001-12-11T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>40</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>3947100000</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S**2</gainUnit>
+            <format>Steim2</format>
+            <flags>CG</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="BHN" datalogger="Datalogger#20130621124007.173315.2240" sensor="Sensor#20130621124007.181779.2259">
+            <start>2001-12-11T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>40</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>3947100000</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S**2</gainUnit>
+            <format>Steim2</format>
+            <flags>CG</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="BHZ" datalogger="Datalogger#20130621124007.173315.2240" sensor="Sensor#20130621124007.186479.2269">
+            <start>2001-12-11T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>40</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>3947100000</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S**2</gainUnit>
+            <format>Steim2</format>
+            <flags>CG</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+        </sensorLocation>
+      </station>
+      <station publicID="Station#20130621124007.859087.3878" code="MKAR">
+        <start>2000-08-28T00:00:00.0000Z</start>
+        <description>Makanchi array,MK31, Kazakhstan</description>
+        <latitude>46.7937</latitude>
+        <longitude>82.2903</longitude>
+        <elevation>615.4</elevation>
+        <place>Makanchi array</place>
+        <country> Kazakhstan</country>
+        <affiliation>KAZAKH NETWORK IGR NNC</affiliation>
+        <archive>BMKG</archive>
+        <restricted>false</restricted>
+        <shared>true</shared>
+        <sensorLocation publicID="SensorLocation#20130621124007.859516.3879" code="">
+          <start>2000-08-28T00:00:00.0000Z</start>
+          <latitude>46.7937</latitude>
+          <longitude>82.2903</longitude>
+          <elevation>615.4</elevation>
+          <stream code="BHE" datalogger="Datalogger#20130621124007.859783.3880" sensor="Sensor#20130621124007.864605.3889">
+            <start>2000-08-28T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>2</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>2</sensorChannel>
+            <sampleRateNumerator>40</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>90</azimuth>
+            <dip>0</dip>
+            <gain>3947100000</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>CG</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="BHN" datalogger="Datalogger#20130621124007.859783.3880" sensor="Sensor#20130621124007.869822.3899">
+            <start>2000-08-28T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>1</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>1</sensorChannel>
+            <sampleRateNumerator>40</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>0</dip>
+            <gain>3947100000</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>CG</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+          <stream code="BHZ" datalogger="Datalogger#20130621124007.859783.3880" sensor="Sensor#20130621124007.875011.3909">
+            <start>2000-08-28T00:00:00.0000Z</start>
+            <dataloggerSerialNumber>xxxx</dataloggerSerialNumber>
+            <dataloggerChannel>0</dataloggerChannel>
+            <sensorSerialNumber>yyyy</sensorSerialNumber>
+            <sensorChannel>0</sensorChannel>
+            <sampleRateNumerator>40</sampleRateNumerator>
+            <sampleRateDenominator>1</sampleRateDenominator>
+            <depth>0</depth>
+            <azimuth>0</azimuth>
+            <dip>-90</dip>
+            <gain>3947100000</gain>
+            <gainFrequency>1</gainFrequency>
+            <gainUnit>M/S</gainUnit>
+            <format>Steim2</format>
+            <flags>CG</flags>
+            <restricted>false</restricted>
+            <shared>true</shared>
+          </stream>
+        </sensorLocation>
+      </station>
+    </network>
+  </Inventory>
+</seiscomp>

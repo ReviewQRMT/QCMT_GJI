@@ -32,7 +32,7 @@
 
 ### Usages
 
-- Download **gf_stores** from https://bit.ly/Auto_RMT_Outputs
+- Download **gf_stores** from _https://bit.ly/Auto_RMT_Outputs_ then extract to **Q_CMT_GJI**
 - Open the terminal in the **Analysis** directory then activate the _**QCMT**_ environment
 - Run _**`python RUN_RMT_KATALOG.py`**_ in the specific analysis directory (**north_banda** for real earthquake or **synthetic_test**)
   - _The script will start by reading the data directory and performing the analysis._
